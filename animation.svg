@@ -1,0 +1,14 @@
+<svg width="1920" height="1080" fill="none" xmlns="http://www.w3.org/2000/svg" style="max-width:100%;max-height:100%">
+  <g filter="url(#a)">
+    <path d="M-131 876c109-57 377-158 571-100 242 72 113 41 393 0 224-33 329-1 353 19m867 63c-13-49-308-208-474-142-208 81 165 519-34 299-198-220-173-350-296-139" stroke="#F1A092" stroke-width="400" stroke-dasharray="0,0,2637.4110167852723,196.4029480584776">
+      <animate attributeType="XML" attributeName="stroke-dasharray" repeatCount="indefinite" dur="6.29813209691362s" values="0,0,2637.4110167852723,196.4029480584776; 0,196.4029480584776,2637.4110167852723,0; 2637.4110167852723,196.4029480584776,0,0" keyTimes="0; 0.06930693069306926; 1"/>
+    </path>
+  </g>
+  <defs>
+    <filter id="a" x="-724.3" y="0" width="3470.5" height="1776.3" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+      <feGaussianBlur stdDeviation="250" result="effect1_foregroundBlur_8_155"/>
+    </filter>
+  </defs>
+</svg>

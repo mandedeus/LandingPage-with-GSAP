@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "Monument Grotesk";
+    src: url(./fonts/MonumentGrotesk-Regular.woff) format("woff");
+    src: url(./fonts/MonumentGrotesk-Regular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Monument Grotesk Bold";
+    src: url(./fonts/MonumentGrotesk-Bold.woff) format("woff");
+    src: url(./fonts/MonumentGrotesk-Bold.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "Monument Grotesk Bold Italic";
+    src: url(./fonts/MonumentGrotesk-BoldItalic.woff) format("woff");
+    src: url(./fonts/MonumentGrotesk-BoldItalic.woff2) format("woff2");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    font-family: "Monument Grotesk";
+    background-color: #F4F0F0;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+    color: #F4F0F0;
+}
+
+nav{
+    display: flex;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -92%);
+    z-index: 100;
+}
+
+.nav-bg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.2rem;
+    -webkit-backdrop-filter: blur(12px) saturate(100%);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(15.392px);
+}
+.nav-items{
+    margin: 0.1rem 1.4rem;
+    cursor: pointer;
+    color: #F4F0F0;
+}
+
+.home-text h1{
+    font-family: "Monument Grotesk Bold";
+    position: absolute;
+    color: #F4F0F0;
+    line-height: 6rem;
+    font-size: 7rem;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    z-index: 2;
+
+}
+.home-text span{
+    font-family: "Monument Grotesk Bold Italic";
+}
+.home-text p{
+    font-family: "Monument Grotesk";
+    position: absolute;
+    color: #F4F0F0;
+    line-height: 1.2rem;
+    text-align: center;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -57%);
+    z-index: 2;
+}
+
+.gradient-bg{
+    height: 100vh;
+    overflow: hidden;
+    pointer-events: none;
+    background: black;
+}
+.gradient-bg img{
+    object-fit: cover;
+}
+
+.info-text{
+    position: absolute;
+    display: flex;
+    font-size: 0.8rem;
+    color: #F4F0F0;
+    margin: 0% 5%;
+    bottom: 4%;
+    z-index: 2;
+}
+.info-text span{
+    margin-right: 1.4rem;
+}
+.left-info{
+    margin-right: 75rem;
+}
